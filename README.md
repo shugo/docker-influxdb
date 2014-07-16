@@ -14,4 +14,4 @@ This probject builds a docker container for running InfluxDB.
 
 3. Start a container mounting `<data-dir>`.
 
-     docker run -d -v <data-dir>:/opt/influxdb/shared shugo/influxdb
+       docker run -d -v <data-dir>:/opt/influxdb/shared shugo/influxdb
